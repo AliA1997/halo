@@ -1,0 +1,2 @@
+SELECT halo_users.username, halo_posts.id as post_id, halo_posts.title, halo_posts.content, halo_posts.imageurl 
+FROM halo_users JOIN halo_posts ON halo_users.auth0_id = halo_posts.user_id WHERE halo_users.auth0_id = $1;

@@ -1,0 +1,59 @@
+.navigation-bar{
+    background: linear-gradient(  #ff9770, #ff70a6);
+    width: 15vw;
+    position: fixed;
+    height: 100vh;
+}
+.user-image-div {
+    border-radius: 100%;
+    margin: 30px;
+    height: 12em;
+    width: 12em;
+    box-shadow: 1em;
+}
+.user-image-div > img {
+    border-radius: 100%;
+    border: outset 1em;
+    height: 100%;
+    width: 100%;
+}
+.username-div {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.username {
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+a {
+    color: #f2f2f2
+}
+.icon {
+    height: 7em;
+    width: 7em;
+    z-index: 4;
+}
+.sub-icon {
+    background: white;
+    background: linear-gradient(  #ff9770, #ff70a6);
+    border-radius: 100%;
+    border: none;
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    left: 53%;
+    top: 56%;
+    z-index: auto;
+}
+.home-button-div {
+    margin-top: 20%;
+}
+.posts-button-div {
+    margin-top: 10%;
+}
+.power-button-div {
+    margin-top: 80%;
+}

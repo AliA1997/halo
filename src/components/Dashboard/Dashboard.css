@@ -1,0 +1,39 @@
+.post-listing-div {
+    background: f2f2f2f2;
+    border: 1px solid #403D39;
+    color: #403d39;
+    height: 5em;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-info-listing-div {
+    height: 100%;
+    display: flex;
+    text-align: right;    
+    align-items: center;
+} 
+.user-info-listing-div > div {
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    background: blue;
+    margin-left: 70%;
+    align-items: center;
+}
+.user-info-listing-div > div > * {
+    margin: 10px;
+}
+.user-listing-img-div {
+    height: 50%;
+    width: 10%;
+    border-radius: 100%;
+}
+.user-listing-img {
+    height: 100%;
+    width: 100%;
+}
